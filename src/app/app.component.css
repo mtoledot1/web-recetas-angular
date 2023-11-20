@@ -1,0 +1,236 @@
+/* Color del header: #E5FF00 ???*/
+
+/* Otros colores que se pueden utilizar*/
+
+/*Color 1: #BF9004*/
+/*Color 2: #A66D03*/
+/*Color 3: #734002*/
+/*Color 4: #BF3604*/
+/*Color 5: #401607*/
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+/********** HEADER ****************/
+header{
+    width: 100%;
+    height: 300px;
+    text-align: center;
+    background-color: #F9CE02 ;
+    overflow: hidden;
+    position: relative;
+}
+
+header img{
+    width: 100%;
+    background-color: #F9CE02;
+}
+
+header .capa{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(249,206,2,0.4);
+}
+
+header h1{
+    font-size: 3rem;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-shadow:  0 0 8px rgba(0,0,0,0.8);
+}
+
+/************ NAV ************/
+
+nav{
+    text-align: center;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:5px;
+    background-color: #F9CE02;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    box-shadow: 0px 7px 17px rgba(249,206,2,0.5);
+}
+
+nav a{
+    width: 150px;
+    padding: 7px;
+    color: black;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+nav a:hover{
+    color: #B56931;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/********** section ***********/
+
+section{
+    height: auto;
+}
+
+.mensaje{
+    text-align: center;
+    padding: 20px;
+    border-bottom: 1px solid #F9CE02;
+}
+
+.mensaje h1{
+    margin: 5px;
+    font-size: 30px;
+}
+
+ /*************** RECETA DEL DIA   **********/
+
+.recetas{
+    margin-top: 30px;
+    padding-bottom: 20px;
+}
+
+.recetas .titulo{
+    text-align: center;
+    font-size: 17px;
+}
+
+.recetas .cont_recetas{
+    width: 100%;
+    padding: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.card{
+    width: 900px;
+    border-radius: 15px;
+    overflow: hidden;
+    box-sizing: border-box;
+    border: 1px solid #F6A300;
+}
+
+.titCard{
+    text-align: center;
+    padding: 10px;
+    background-color: #F6A300;
+}
+
+.imgCard{
+    overflow: hidden;
+    width: 30%;
+    height: 215px;
+}
+
+.imgCard img{
+    width: 100%;
+}
+
+.cardInfo{
+    padding: 10px;
+    width: 70%;
+}
+
+.personas{
+    height: 35px;
+    display: flex;
+    align-items: center;
+    padding: 5px;
+}
+
+.ingredientes{
+    padding: 5px;
+}
+
+.ingredientes ul{
+    list-style: none;
+    margin-top: 5px;
+}
+
+.estrucCard{
+    display: flex;
+    flex-direction: row;
+}
+
+.estRec{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #DA2812;
+    overflow: hidden;
+    position: relative;
+    height: 300px;
+    margin-bottom: 20px;
+}
+
+.estRec img{
+    width: 100%;
+    background-color: #F9CE02;
+}
+
+.contRec{
+    border: 2px solid  #DC3C39;
+    width: 250px;
+    height: auto;
+    padding: 15px;
+    border-radius: 15px;
+    background-color: rgba(255,255,255,0.4);
+    position: absolute;
+    top: 0;
+    margin: 5px;
+}
+
+.titRec{
+    margin-top: 10px;
+    padding: 15px;
+    width: 100%;
+    text-align: center;
+    background-color: #DC3C39;
+    color: white;
+    border-top-left-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.titcontRec{
+    text-align: center;
+    padding: 5px;
+}
+
+.imgcontRec{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+}
+
+.imgcontRec img{
+    width: 150px;
+    background-color: rgba(255,255,255,0.0);
+}
+
+.descripRec{
+    text-align: justify;
+    margin: 5px;
+}
+/** footer ***/
+footer{
+    background-color: #F9CE02;
+    display: flex;
+    padding: 7px;
+    text-align: center;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+}
